@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = 'Inherit and system classes, compile extensions, and reuse.'
 
-  s.homepage     = "https://github.com/PangDuTechnology/AFOUIKIT.git"
+  s.homepage     = "https://github.com/PangDuTechnology/AFOSQLite.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/PangDuTechnology/AFOUIKIT.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/PangDuTechnology/AFOSQLite.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -85,10 +85,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AFOUIKIT/*.{h,m}"
-  #s.exclude_files = "AFOUIKIT/*.{h,m}""
+  s.source_files  = "AFOSQLite/*.{h,m}"
+  #s.exclude_files = "AFOSQLite/*.{h,m}""
 
-  s.public_header_files = "AFOUIKIT/*.h"
+  s.public_header_files = "AFOSQLite/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
