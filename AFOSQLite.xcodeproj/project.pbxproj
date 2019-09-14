@@ -75,53 +75,21 @@
 			isa = PBXGroup;
 			children = (
 				2408BB132008764A0049060F /* AFOSQLite.h */,
-				2408BB25200876940049060F /* foreign */,
-				2408BB1B200876930049060F /* FMDB */,
-			);
-			path = AFOSQLite;
-			sourceTree = "<group>";
-		};
-		2408BB1B200876930049060F /* FMDB */ = {
-			isa = PBXGroup;
-			children = (
-				2408BB1C200876930049060F /* include */,
-				2408BB23200876930049060F /* lib */,
-			);
-			path = FMDB;
-			sourceTree = "<group>";
-		};
-		2408BB1C200876930049060F /* include */ = {
-			isa = PBXGroup;
-			children = (
-				2408BB1D200876930049060F /* FMDatabase.h */,
-				2408BB1E200876930049060F /* FMResultSet.h */,
-				2408BB1F200876930049060F /* FMDatabasePool.h */,
-				2408BB20200876930049060F /* FMDatabaseQueue.h */,
-				2408BB21200876930049060F /* FMDB.h */,
-				2408BB22200876930049060F /* FMDatabaseAdditions.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		2408BB23200876930049060F /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				2408BB24200876930049060F /* libFMDB.a */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		2408BB25200876940049060F /* foreign */ = {
-			isa = PBXGroup;
-			children = (
 				2408BB27200876940049060F /* AFOFMDBForeignInterface.h */,
 				2408BB26200876940049060F /* AFOFMDBForeignInterface.m */,
 				2408BB4A2008875E0049060F /* AFOFMDBForeignInterface+SQLite.h */,
 				2408BB4B2008875E0049060F /* AFOFMDBForeignInterface+SQLite.m */,
 				24B0F4AB200B899C00DB8D85 /* AFOFMDBForeignInterface+Dictionary.h */,
 				24B0F4AC200B899C00DB8D85 /* AFOFMDBForeignInterface+Dictionary.m */,
+				2408BB1D200876930049060F /* FMDatabase.h */,
+				2408BB1E200876930049060F /* FMResultSet.h */,
+				2408BB1F200876930049060F /* FMDatabasePool.h */,
+				2408BB20200876930049060F /* FMDatabaseQueue.h */,
+				2408BB21200876930049060F /* FMDB.h */,
+				2408BB22200876930049060F /* FMDatabaseAdditions.h */,
+				2408BB24200876930049060F /* libFMDB.a */,
 			);
-			path = foreign;
+			path = AFOSQLite;
 			sourceTree = "<group>";
 		};
 		2408BB31200876C70049060F /* Frameworks */ = {
