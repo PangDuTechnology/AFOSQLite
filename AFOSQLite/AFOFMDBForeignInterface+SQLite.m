@@ -7,7 +7,7 @@
 //
 
 #import "AFOFMDBForeignInterface+SQLite.h"
-#import "FMDB.h"
+#import <FMDB/FMDB.h>
 @implementation AFOFMDBForeignInterface (SQLite)
 
 #pragma mark ------------ 表是否存在
