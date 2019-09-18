@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AFOSQLite"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "This library is for extending UIKit libraries."
 
   # This description is used to generate tags and improve search results.
@@ -85,10 +85,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AFOSQLite/**/*.{h,m}"
+  s.source_files  = "AFOSQLite/*.{h,m}"
   #s.exclude_files = "AFOSQLite/*.{h,m}""
 
-  s.public_header_files = "AFOSQLite/**/*.h"
+  s.public_header_files = "AFOSQLite/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

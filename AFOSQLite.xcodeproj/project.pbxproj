@@ -65,11 +65,7 @@
 			children = (
 				2408BB132008764A0049060F /* AFOSQLite.h */,
 				2408BB27200876940049060F /* AFOFMDBForeignInterface.h */,
-				24B08ECB2332736A007225ED /* AFOFMDBForeignInterface.m */,
-				24B08ECC2332736A007225ED /* AFOFMDBForeignInterface+Dictionary.h */,
-				24B08ECA23327369007225ED /* AFOFMDBForeignInterface+Dictionary.m */,
-				24B08ECD2332736A007225ED /* AFOFMDBForeignInterface+SQLite.h */,
-				24B08ECE2332736A007225ED /* AFOFMDBForeignInterface+SQLite.m */,
+				24B08ECF23327502007225ED /* privite */,
 			);
 			path = AFOSQLite;
 			sourceTree = "<group>";
@@ -82,6 +78,18 @@
 				C6E08345F329AF98B382EB1F /* libPods-AFOSQLite.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24B08ECF23327502007225ED /* privite */ = {
+			isa = PBXGroup;
+			children = (
+				24B08ECB2332736A007225ED /* AFOFMDBForeignInterface.m */,
+				24B08ECC2332736A007225ED /* AFOFMDBForeignInterface+Dictionary.h */,
+				24B08ECA23327369007225ED /* AFOFMDBForeignInterface+Dictionary.m */,
+				24B08ECD2332736A007225ED /* AFOFMDBForeignInterface+SQLite.h */,
+				24B08ECE2332736A007225ED /* AFOFMDBForeignInterface+SQLite.m */,
+			);
+			path = privite;
 			sourceTree = "<group>";
 		};
 		5A0B6D244C9412BA148DF10E /* Pods */ = {
