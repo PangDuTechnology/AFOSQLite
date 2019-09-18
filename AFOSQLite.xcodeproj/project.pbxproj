@@ -8,31 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		2408BB152008764A0049060F /* AFOSQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 2408BB132008764A0049060F /* AFOSQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2408BB28200876940049060F /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2408BB1D200876930049060F /* FMDatabase.h */; };
-		2408BB29200876940049060F /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 2408BB1E200876930049060F /* FMResultSet.h */; };
-		2408BB2A200876940049060F /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2408BB1F200876930049060F /* FMDatabasePool.h */; };
-		2408BB2B200876940049060F /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2408BB20200876930049060F /* FMDatabaseQueue.h */; };
-		2408BB2C200876940049060F /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 2408BB21200876930049060F /* FMDB.h */; };
-		2408BB2D200876940049060F /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2408BB22200876930049060F /* FMDatabaseAdditions.h */; };
-		2408BB2E200876940049060F /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2408BB24200876930049060F /* libFMDB.a */; };
 		2408BB2F200876940049060F /* AFOFMDBForeignInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408BB26200876940049060F /* AFOFMDBForeignInterface.m */; };
 		2408BB30200876940049060F /* AFOFMDBForeignInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 2408BB27200876940049060F /* AFOFMDBForeignInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2408BB4C2008875E0049060F /* AFOFMDBForeignInterface+SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 2408BB4A2008875E0049060F /* AFOFMDBForeignInterface+SQLite.h */; };
 		2408BB4D2008875E0049060F /* AFOFMDBForeignInterface+SQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408BB4B2008875E0049060F /* AFOFMDBForeignInterface+SQLite.m */; };
 		24B0F4AD200B899C00DB8D85 /* AFOFMDBForeignInterface+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B0F4AB200B899C00DB8D85 /* AFOFMDBForeignInterface+Dictionary.h */; };
 		24B0F4AE200B899C00DB8D85 /* AFOFMDBForeignInterface+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B0F4AC200B899C00DB8D85 /* AFOFMDBForeignInterface+Dictionary.m */; };
+		C65E166BA589D1CE4159A127 /* libPods-AFOSQLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E08345F329AF98B382EB1F /* libPods-AFOSQLite.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2408BB102008764A0049060F /* AFOSQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFOSQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2408BB132008764A0049060F /* AFOSQLite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFOSQLite.h; sourceTree = "<group>"; };
-		2408BB1D200876930049060F /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		2408BB1E200876930049060F /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		2408BB1F200876930049060F /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		2408BB20200876930049060F /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		2408BB21200876930049060F /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
-		2408BB22200876930049060F /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		2408BB24200876930049060F /* libFMDB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFMDB.a; sourceTree = "<group>"; };
 		2408BB26200876940049060F /* AFOFMDBForeignInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOFMDBForeignInterface.m; sourceTree = "<group>"; };
 		2408BB27200876940049060F /* AFOFMDBForeignInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOFMDBForeignInterface.h; sourceTree = "<group>"; };
 		2408BB32200876C70049060F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -40,6 +27,9 @@
 		2408BB4B2008875E0049060F /* AFOFMDBForeignInterface+SQLite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFOFMDBForeignInterface+SQLite.m"; sourceTree = "<group>"; };
 		24B0F4AB200B899C00DB8D85 /* AFOFMDBForeignInterface+Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFOFMDBForeignInterface+Dictionary.h"; sourceTree = "<group>"; };
 		24B0F4AC200B899C00DB8D85 /* AFOFMDBForeignInterface+Dictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFOFMDBForeignInterface+Dictionary.m"; sourceTree = "<group>"; };
+		53363B285D6B8D3B5B07DE7D /* Pods-AFOSQLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFOSQLite.release.xcconfig"; path = "Target Support Files/Pods-AFOSQLite/Pods-AFOSQLite.release.xcconfig"; sourceTree = "<group>"; };
+		C6E08345F329AF98B382EB1F /* libPods-AFOSQLite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFOSQLite.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2BEDEC47196C4730C11620 /* Pods-AFOSQLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFOSQLite.debug.xcconfig"; path = "Target Support Files/Pods-AFOSQLite/Pods-AFOSQLite.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2408BB2E200876940049060F /* libFMDB.a in Frameworks */,
+				C65E166BA589D1CE4159A127 /* libPods-AFOSQLite.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +50,7 @@
 				2408BB122008764A0049060F /* AFOSQLite */,
 				2408BB112008764A0049060F /* Products */,
 				2408BB31200876C70049060F /* Frameworks */,
+				5A0B6D244C9412BA148DF10E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,7 +69,6 @@
 				2408BB27200876940049060F /* AFOFMDBForeignInterface.h */,
 				2408BB26200876940049060F /* AFOFMDBForeignInterface.m */,
 				2424F6E1232CC49B006FA89F /* category */,
-				2424F6DE232CC45E006FA89F /* FMDB */,
 			);
 			path = AFOSQLite;
 			sourceTree = "<group>";
@@ -87,22 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				2408BB32200876C70049060F /* libsqlite3.tbd */,
+				C6E08345F329AF98B382EB1F /* libPods-AFOSQLite.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2424F6DE232CC45E006FA89F /* FMDB */ = {
-			isa = PBXGroup;
-			children = (
-				2408BB1D200876930049060F /* FMDatabase.h */,
-				2408BB1E200876930049060F /* FMResultSet.h */,
-				2408BB1F200876930049060F /* FMDatabasePool.h */,
-				2408BB20200876930049060F /* FMDatabaseQueue.h */,
-				2408BB21200876930049060F /* FMDB.h */,
-				2408BB22200876930049060F /* FMDatabaseAdditions.h */,
-				2408BB24200876930049060F /* libFMDB.a */,
-			);
-			name = FMDB;
 			sourceTree = "<group>";
 		};
 		2424F6E1232CC49B006FA89F /* category */ = {
@@ -116,6 +93,15 @@
 			name = category;
 			sourceTree = "<group>";
 		};
+		5A0B6D244C9412BA148DF10E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE2BEDEC47196C4730C11620 /* Pods-AFOSQLite.debug.xcconfig */,
+				53363B285D6B8D3B5B07DE7D /* Pods-AFOSQLite.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -123,14 +109,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2408BB2B200876940049060F /* FMDatabaseQueue.h in Headers */,
 				2408BB30200876940049060F /* AFOFMDBForeignInterface.h in Headers */,
-				2408BB2A200876940049060F /* FMDatabasePool.h in Headers */,
-				2408BB2D200876940049060F /* FMDatabaseAdditions.h in Headers */,
-				2408BB29200876940049060F /* FMResultSet.h in Headers */,
 				2408BB4C2008875E0049060F /* AFOFMDBForeignInterface+SQLite.h in Headers */,
-				2408BB2C200876940049060F /* FMDB.h in Headers */,
-				2408BB28200876940049060F /* FMDatabase.h in Headers */,
 				2408BB152008764A0049060F /* AFOSQLite.h in Headers */,
 				24B0F4AD200B899C00DB8D85 /* AFOFMDBForeignInterface+Dictionary.h in Headers */,
 			);
@@ -143,6 +123,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2408BB182008764A0049060F /* Build configuration list for PBXNativeTarget "AFOSQLite" */;
 			buildPhases = (
+				375F038EE4FCAAC5AB55CDC6 /* [CP] Check Pods Manifest.lock */,
 				2408BB0B2008764A0049060F /* Sources */,
 				2408BB0C2008764A0049060F /* Frameworks */,
 				2408BB0D2008764A0049060F /* Headers */,
@@ -163,7 +144,7 @@
 		2408BB072008764A0049060F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "AFO Science Technology Ltd";
 				TargetAttributes = {
 					2408BB0F2008764A0049060F = {
@@ -178,6 +159,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 2408BB062008764A0049060F;
 			productRefGroup = 2408BB112008764A0049060F /* Products */;
@@ -198,6 +180,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		375F038EE4FCAAC5AB55CDC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFOSQLite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2408BB0B2008764A0049060F /* Sources */ = {
@@ -227,6 +234,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -234,6 +242,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -285,6 +294,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -292,6 +302,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -325,6 +336,7 @@
 		};
 		2408BB192008764A0049060F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE2BEDEC47196C4730C11620 /* Pods-AFOSQLite.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -335,14 +347,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AFOSQLite/FMDB/include";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/AFOSQLite/FMDB/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -357,6 +366,7 @@
 		};
 		2408BB1A2008764A0049060F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53363B285D6B8D3B5B07DE7D /* Pods-AFOSQLite.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -367,14 +377,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/AFOSQLite/FMDB/include";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/AFOSQLite/FMDB/lib",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-ObjC",

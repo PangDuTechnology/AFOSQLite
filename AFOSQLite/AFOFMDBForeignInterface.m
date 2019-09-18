@@ -9,8 +9,7 @@
 #import "AFOFMDBForeignInterface.h"
 #import "AFOFMDBForeignInterface+SQLite.h"
 #import "AFOFMDBForeignInterface+Dictionary.h"
-#import "FMDB.h"
-
+#import <FMDB/FMDB.h>
 @interface AFOFMDBForeignInterface ()
 @property (nonatomic, strong) FMDatabaseQueue *queue;
 @end
