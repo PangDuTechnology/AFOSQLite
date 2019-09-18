@@ -66,10 +66,7 @@
 				2408BB132008764A0049060F /* AFOSQLite.h */,
 				2408BB27200876940049060F /* AFOFMDBForeignInterface.h */,
 				24B08EC32332718A007225ED /* AFOFMDBForeignInterface.m */,
-				24B08EC42332718A007225ED /* AFOFMDBForeignInterface+Dictionary.h */,
-				24B08EC52332718A007225ED /* AFOFMDBForeignInterface+Dictionary.m */,
-				24B08EC22332718A007225ED /* AFOFMDBForeignInterface+SQLite.h */,
-				24B08EC62332718A007225ED /* AFOFMDBForeignInterface+SQLite.m */,
+				24B08EC7233271DC007225ED /* category */,
 			);
 			path = AFOSQLite;
 			sourceTree = "<group>";
@@ -82,6 +79,17 @@
 				C6E08345F329AF98B382EB1F /* libPods-AFOSQLite.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24B08EC7233271DC007225ED /* category */ = {
+			isa = PBXGroup;
+			children = (
+				24B08EC42332718A007225ED /* AFOFMDBForeignInterface+Dictionary.h */,
+				24B08EC52332718A007225ED /* AFOFMDBForeignInterface+Dictionary.m */,
+				24B08EC22332718A007225ED /* AFOFMDBForeignInterface+SQLite.h */,
+				24B08EC62332718A007225ED /* AFOFMDBForeignInterface+SQLite.m */,
+			);
+			path = category;
 			sourceTree = "<group>";
 		};
 		5A0B6D244C9412BA148DF10E /* Pods */ = {
