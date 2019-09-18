@@ -12,6 +12,7 @@
 		2408BB30200876940049060F /* AFOFMDBForeignInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 2408BB27200876940049060F /* AFOFMDBForeignInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2408BB4C2008875E0049060F /* AFOFMDBForeignInterface+SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 2408BB4A2008875E0049060F /* AFOFMDBForeignInterface+SQLite.h */; };
 		2408BB4D2008875E0049060F /* AFOFMDBForeignInterface+SQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408BB4B2008875E0049060F /* AFOFMDBForeignInterface+SQLite.m */; };
+		24B08EC123326B07007225ED /* libFMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B08EC023326B07007225ED /* libFMDB.a */; };
 		24B0F4AD200B899C00DB8D85 /* AFOFMDBForeignInterface+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B0F4AB200B899C00DB8D85 /* AFOFMDBForeignInterface+Dictionary.h */; };
 		24B0F4AE200B899C00DB8D85 /* AFOFMDBForeignInterface+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B0F4AC200B899C00DB8D85 /* AFOFMDBForeignInterface+Dictionary.m */; };
 		C65E166BA589D1CE4159A127 /* libPods-AFOSQLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E08345F329AF98B382EB1F /* libPods-AFOSQLite.a */; };
@@ -25,6 +26,7 @@
 		2408BB32200876C70049060F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		2408BB4A2008875E0049060F /* AFOFMDBForeignInterface+SQLite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFOFMDBForeignInterface+SQLite.h"; sourceTree = "<group>"; };
 		2408BB4B2008875E0049060F /* AFOFMDBForeignInterface+SQLite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFOFMDBForeignInterface+SQLite.m"; sourceTree = "<group>"; };
+		24B08EC023326B07007225ED /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B0F4AB200B899C00DB8D85 /* AFOFMDBForeignInterface+Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFOFMDBForeignInterface+Dictionary.h"; sourceTree = "<group>"; };
 		24B0F4AC200B899C00DB8D85 /* AFOFMDBForeignInterface+Dictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFOFMDBForeignInterface+Dictionary.m"; sourceTree = "<group>"; };
 		53363B285D6B8D3B5B07DE7D /* Pods-AFOSQLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFOSQLite.release.xcconfig"; path = "Target Support Files/Pods-AFOSQLite/Pods-AFOSQLite.release.xcconfig"; sourceTree = "<group>"; };
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B08EC123326B07007225ED /* libFMDB.a in Frameworks */,
 				C65E166BA589D1CE4159A127 /* libPods-AFOSQLite.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +79,7 @@
 		2408BB31200876C70049060F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				24B08EC023326B07007225ED /* libFMDB.a */,
 				2408BB32200876C70049060F /* libsqlite3.tbd */,
 				C6E08345F329AF98B382EB1F /* libPods-AFOSQLite.a */,
 			);
