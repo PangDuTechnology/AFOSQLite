@@ -64,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				2408BB132008764A0049060F /* AFOSQLite.h */,
-				2408BB27200876940049060F /* AFOFMDBForeignInterface.h */,
 				24B08ECF23327502007225ED /* privite */,
 			);
 			path = AFOSQLite;
@@ -83,6 +82,7 @@
 		24B08ECF23327502007225ED /* privite */ = {
 			isa = PBXGroup;
 			children = (
+				2408BB27200876940049060F /* AFOFMDBForeignInterface.h */,
 				24B08ECB2332736A007225ED /* AFOFMDBForeignInterface.m */,
 				24B08ECC2332736A007225ED /* AFOFMDBForeignInterface+Dictionary.h */,
 				24B08ECA23327369007225ED /* AFOFMDBForeignInterface+Dictionary.m */,
