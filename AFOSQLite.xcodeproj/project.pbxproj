@@ -350,6 +350,7 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
+					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.youku.AFOSQLite;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -380,6 +381,7 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
+					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.youku.AFOSQLite;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
